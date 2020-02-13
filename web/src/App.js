@@ -29,9 +29,9 @@ function App() {
 
   return (
     <div id="app">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <navbar ClassName="navbar navbar-expand-lg navbar-light bg-light">
         <Cabecalho />
-      </nav>
+      </navbar>
 
       <aside>
         <strong>Cadastrar</strong>

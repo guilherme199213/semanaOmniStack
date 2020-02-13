@@ -1,16 +1,14 @@
 import React from "react";
+import ReactDOM from 'react-dom';
 
 import "./style.css";
 
 function Cabecalho({ dev }) {
     return (
-        <header>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-                    <span class="navbar-toggler-icon"> </span>
-                </button>
-            </nav>
-        </header>
+        <navbar bg="light" expand="lg">
+            <button variant="outline-success">Search</button>
+
+        </navbar>
     );
 }
 
